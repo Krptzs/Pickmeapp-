@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PickmeApp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: #00bcd4; /* Türkiz */
+        }
+    </style>
+</head>
+<body>
+    <h1>Üdvözlünk a PickmeApp-ban!</h1>
+    <p>Ez egy alap oldal, hogy teszteljük, működik-e a Vercel deploy.</p>
+</body>
+</html>
