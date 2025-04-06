@@ -1,34 +1,16 @@
+/* Alap stílusok */
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* világoskék háttér */
+    text-align: center;
+    padding: 20px;
 }
 
-.tabs {
-  display: flex;
-  justify-content: space-around;
-  background-color: #f1f1f1;
-  padding: 10px;
+h1 {
+    color: #00bcd4; /* türkiz szín */
 }
 
-.tablinks {
-  background-color: #ddd;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.tablinks:hover {
-  background-color: #ccc;
-}
-
-.tabcontent {
-  display: none;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  margin-top: 20px;
-}
-
-.active {
-  background-color: #f1f1f1;
+p {
+    font-size: 18px;
+    color: #333; /* sötét szürke szöveg */
 }
