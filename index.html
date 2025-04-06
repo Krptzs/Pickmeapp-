@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PickmeApp</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            text-align: center;
-        }
-        h1 {
-            color: #00bcd4; /* Türkiz */
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Üdvözlünk a PickmeApp-ban!</h1>
-    <p>Ez egy alap tesztoldal, hogy ellenőrizzük a Vercel működését.</p>
+    
+    <!-- Fülek -->
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab('megelőzés')">Megelőzés</button>
+        <button class="tab-button" onclick="openTab('légzőgyakorlat')">Légzőgyakorlat</button>
+        <button class="tab-button" onclick="openTab('zene')">Zene</button>
+    </div>
 
-    <script>
-        console.log("A PickmeApp működik!");
-    </script>
+    <!-- Tartalom a fülekhez -->
+    <div id="megelőzés" class="tab-content">
+        <h2>Megelőzés</h2>
+        <p>Itt jöhet a megelőzésről szóló tartalom, pl. passziánsz, keresztrejtvények stb.</p>
+    </div>
+
+    <div id="légzőgyakorlat" class="tab-content">
+        <h2>Légzőgyakorlat</h2>
+        <p>Itt jöhet a légzőgyakorlatokról szóló tartalom.</p>
+    </div>
+
+    <div id="zene" class="tab-content">
+        <h2>Zene</h2>
+        <p>Itt jöhet a zenék feltöltése és hallgatása.</p>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

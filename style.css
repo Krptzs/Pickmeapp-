@@ -10,7 +10,37 @@ h1 {
     color: #00bcd4; /* türkiz szín */
 }
 
-p {
-    font-size: 18px;
-    color: #333; /* sötét szürke szöveg */
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.tab-button:hover {
+    background-color: #b0e0e6; /* világos türkiz */
+}
+
+.tab-button:focus {
+    outline: none;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.active {
+    display: block;
 }
